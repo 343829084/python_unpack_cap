@@ -1,1 +1,1 @@
-需要安装 dpkt 及pandas二个库
+需要安装 dpkt 及pandas二个库注意这里解包是解的tcp包，而不是udp包，需要根据tcp/udp消息头来进行解包，对于udp组播的头，也需要注意，它与udp的头不一样。
